@@ -31,12 +31,13 @@ asl-project/
 ```
 
 ## Order of work
-
+Use notebook file to do the steps bellow( there is also one cell for scientific experiments.) 
 1. Gather data:        `python collect_dataset.py`  (one run per letter)
 2. Split:              `python training/split_data.py`
 3. Train:              `python training/train.py`   (saves backend/model.pt)
 4. Evaluate:           `python training/evaluate.py`
 5. Run the app (backend + frontend) — it auto-loads your model.
+   
 
 Run the training commands from the project root (so `dataset/`, `backend/`,
 `training/` are all visible).
@@ -76,4 +77,4 @@ sign ~1s to capture a letter, use Delete / Delete all, then Send.
 - Delete / Delete all / Send are buttons.
 - Training: ~26 classes; runs on CPU slowly, faster on Colab GPU. Class order is
   taken from the folder names and saved to backend/classes.json automatically.
-- Gemini: without a key the app still runs and returns the letters as text.
+- Gemini: without a key the app still runs and returns the letters as text, you want to use gemini, add your api key to .env file

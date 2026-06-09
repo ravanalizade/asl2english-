@@ -31,12 +31,13 @@ asl-project/
 ```
 
 ## Order of work
-
+Use notebook file to do the steps bellow( there is also one cell for scientific experiments.) 
 1. Gather data:        `python collect_dataset.py`  (one run per letter)
 2. Split:              `python training/split_data.py`
 3. Train:              `python training/train.py`   (saves backend/model.pt)
 4. Evaluate:           `python training/evaluate.py`
 5. Run the app (backend + frontend) — it auto-loads your model.
+   
 
 Run the training commands from the project root (so `dataset/`, `backend/`,
 `training/` are all visible).

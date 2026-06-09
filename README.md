@@ -76,4 +76,4 @@ sign ~1s to capture a letter, use Delete / Delete all, then Send.
 - Delete / Delete all / Send are buttons.
 - Training: ~26 classes; runs on CPU slowly, faster on Colab GPU. Class order is
   taken from the folder names and saved to backend/classes.json automatically.
-- Gemini: without a key the app still runs and returns the letters as text.
+- Gemini: without a key the app still runs and returns the letters as text, you want to use gemini, add your api key to .env file

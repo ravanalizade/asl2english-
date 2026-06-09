@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit your API key
+backend/.env
+
+# Trained model + classes (large/binary; share separately)
+backend/model.pt
+backend/classes.json
+
+# Node / frontend
+node_modules/
+dist/
+
+# Dataset (too large for git)
+dataset/
+
+# Training outputs
+training/split.json
+training/confusion_matrix.csv
+training/preprocess_samples/
+
+# OS junk
+.DS_Store
+Thumbs.db
